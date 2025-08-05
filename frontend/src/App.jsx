@@ -1,13 +1,14 @@
-import { useState } from 'react'
+import { useState,useEffect } from 'react'
 import './App.css'
+import axios from 'axios';
+import Home from './components/pages/Quiz'
+import Quiz from './components/pages/Quiz';
 
 function App() {
-  const [count, setCount] = useState(0)
+ 
 
   return (
-    <>
-     <h1>This is frontend</h1>
-    </>
+   <Quiz/>
   )
 }
 
