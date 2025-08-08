@@ -1,0 +1,29 @@
+
+.nav-area{
+    display: flex ;
+    align-items: center ;
+    justify-content: space-around ;
+}
+
+form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70vh;
+
+}
+.btnsGrp{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.complete{
+    align-self: center;
+    font-weight: 700;
+    font-size: 3rem;
+    margin-left: 35%;
+    margin-top: 15%;
+    align-content: center;
+}
